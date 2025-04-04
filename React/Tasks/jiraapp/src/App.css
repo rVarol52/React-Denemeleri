@@ -1,0 +1,105 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-create {
+  width: 450px;
+}
+
+.task-edit {
+  width: 100%;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-label {
+  margin: 10px 0;
+}
+
+.task-input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.task-button {
+  margin: 10px 0px;
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+}
+
+.update-button {
+  background-color: blueviolet;
+}
+
+.task-button:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+.update-button:hover {
+  background-color: darkmagenta;
+  cursor: pointer;
+}
+
+.task-show {
+  border: 1px solid green;
+  border-radius: 30px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-delete {
+  padding: 5px;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  margin-right: 10px;
+  color: white;
+  width: 60px;
+  background-color: red;
+}
+
+.task-delete:hover {
+  background-color: darkred;
+  cursor: pointer;
+}
+
+.task-update {
+  padding: 5px;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  margin-right: 10px;
+  color: white;
+  width: 100px;
+  background-color: blue;
+}
+
+.task-update:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
+
+.task-title {
+  margin-bottom: 5px;
+}
